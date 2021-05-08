@@ -1,3 +1,3 @@
-const {sayHello} = require('slug-maker');
+const {makeSlug} = require('slug-maker');
 
-sayHello();
+console.log(makeSlug("TestING,   HoW I$s Th1s L00KiNg?!?!?!?!@#$#@*&"));
